@@ -25,7 +25,7 @@
 
 Zasper is an IDE designed from the ground up to support massive concurrency. It provides a minimal memory footprint, exceptional speed, and the ability to handle numerous concurrent connections.
 
-It's perfectly suited for running REPL-style data applications, with Jupyter notebooks being one example.
+It implements [Jupyter's wire protocol](https://jupyter-client.readthedocs.io/en/latest/messaging.html) and can efficiently run Jupyter Notebooks.
 
 **Currently Zasper is fully supported on MacOS and Linux.** Windows has limited support.
 
@@ -37,8 +37,8 @@ How is Zasper better than JupyterLab ?
 
 ![](https://raw.githubusercontent.com/zasper-io/zasper-benchmark/main/assets/summary_resources.png)
 
-* Upto 5X Lesser CPU usage
-* Upto 40X Lesser RAM
+* Up to 5X Lesser CPU usage
+* Upto 40X Lesser RAM usage
 * Higher throughput
 * Lower latency
 * Highly resilient under very high loads
